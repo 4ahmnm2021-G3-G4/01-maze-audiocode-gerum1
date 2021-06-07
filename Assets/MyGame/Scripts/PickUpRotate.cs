@@ -24,16 +24,16 @@ public class PickUpRotate : MonoBehaviour
         }
     }
     void MoveUp (){
-        MoveSun(0.01f);
-        if (transform.position.y >= 0f)
+        MoveSun(0.004f);
+        if (transform.position.y >= 0.7f)
         {
             moveUpBool = false;
         }
     }
     void MoveDown()
     {
-        MoveSun(-0.01f);
-        if (transform.position.y <= -0.5f)
+        MoveSun(-0.004f);
+        if (transform.position.y <= 0.4f)
         {
             moveUpBool = true;
         }
