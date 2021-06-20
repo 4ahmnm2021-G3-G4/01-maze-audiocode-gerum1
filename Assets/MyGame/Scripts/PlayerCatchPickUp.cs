@@ -16,25 +16,26 @@ public class PlayerCatchPickUp : MonoBehaviour
         audio5.Play();
         sunCounter = 0;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "sun")
         {
             sunCounter = sunCounter + 1;
             Destroy(other.gameObject);
-            audio2.Play ();
-            audio5.Stop ();
             scoreText.text = sunCounter.ToString() + "/3 Sonnen";
-            Debug.Log("Sonne dawischt");
+            if (sunCounter == 3)
+            {
+                allPickedUpText.enabled = true;
+                StartCoroutine("WaitText");
+            }
         }
-        if (sunCounter == 3)
-            allPickedUpText.enabled = true;
+
+
+    }
+    IEnumerator WaitText()
+    {
+        yield return new WaitForSeconds(5);
+        allPickedUpText.enabled = false;
     }
 }
 

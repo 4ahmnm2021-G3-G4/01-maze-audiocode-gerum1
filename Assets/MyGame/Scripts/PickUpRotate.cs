@@ -10,7 +10,6 @@ public class PickUpRotate : MonoBehaviour
     {
         moveUpBool = true;
     }
-    // Update is called once per frame
     void Update()
     {
         transform.Rotate(Vector3.up * speed * Time.deltaTime);
@@ -23,7 +22,8 @@ public class PickUpRotate : MonoBehaviour
             MoveDown();
         }
     }
-    void MoveUp (){
+    void MoveUp()
+    {
         MoveSun(0.004f);
         if (transform.position.y >= 0.7f)
         {
@@ -41,6 +41,5 @@ public class PickUpRotate : MonoBehaviour
     void MoveSun(float yValue)
     {
         transform.position = new Vector3(transform.position.x, transform.position.y + yValue, transform.position.z);
-
     }
 }
