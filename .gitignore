@@ -9,6 +9,10 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Pp]ackages/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
 
 /[Aa]ssets/SteamVR/
 /[Aa]ssets/SteamVR_Input/
@@ -67,5 +71,4 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+
