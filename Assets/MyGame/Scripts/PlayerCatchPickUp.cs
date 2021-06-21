@@ -13,7 +13,7 @@ public class PlayerCatchPickUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        audio5.Play();
+       
         sunCounter = 0;
     }
     private void OnTriggerEnter(Collider other)
