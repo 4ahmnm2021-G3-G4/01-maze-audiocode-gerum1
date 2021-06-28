@@ -43,4 +43,4 @@ Im Debug Modus lässt sich der Key nicht aufsammeln. In der VR - Ansicht hat all
 ### Lessons Learned:
 I hate programming.
 
-Copyright by gerum1 
+Copyright by gerum1 (Richard Gerum 4AHMNM 2021)
