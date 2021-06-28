@@ -29,6 +29,8 @@ Tested on Oculus Rift S
 Screenshots (concept and experience), Video
 /Users/richardgerum/Desktop/Bildschirmfoto 2021-06-28 um 10.53.12.png
 
+Video Run Trough: https://www.youtube.com/watch?v=pkcKYn2iSRc
+
 ### Third party material: 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 Die Sounds sind von opensource Websites aus dem Internet oder selbst Sounddesigner. Hier wird die Moonflower Font verwendet. Die Materials sind von Textures.com und er Code selbst geschrieben.
