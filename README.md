@@ -27,16 +27,20 @@ Tested on Oculus Rift S
 
 ### Visuals: 
 Screenshots (concept and experience), Video
+/Users/richardgerum/Desktop/Bildschirmfoto 2021-06-28 um 10.53.12.png
 
 ### Third party material: 
 (if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
+Die Sounds sind von opensource Websites aus dem Internet oder selbst Sounddesigner. Hier wird die Moonflower Font verwendet. Die Materials sind von Textures.com und er Code selbst geschrieben.
 
 ### Project state: 
-2%/100% finished
+100%/100% finished
 <progress max="100" value="2"></progress>
 
 ### Limitations: 
+Im Debug Modus lässt sich der Key nicht aufsammeln. In der VR - Ansicht hat alles in der letzten Stunde funktioniert. In VR muss man sich bücken um die Interaktionen auszulösen, da diese mit dem Kopf ausgelöst werden.
 
-### Lessons Learned: 
+### Lessons Learned:
+I hate programming.
 
 Copyright by gerum1 
